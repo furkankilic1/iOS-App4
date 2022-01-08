@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA58F22E2774CF080034ED4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA58F22D2774CF080034ED4D /* AppDelegate.swift */; };
+		BA58F2302774CF080034ED4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA58F22F2774CF080034ED4D /* SceneDelegate.swift */; };
+		BA58F2322774CF080034ED4D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA58F2312774CF080034ED4D /* MainVC.swift */; };
+		BA58F2352774CF080034ED4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA58F2332774CF080034ED4D /* Main.storyboard */; };
+		BA58F2382774CF080034ED4D /* FurkanKilic_HW4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA58F2362774CF080034ED4D /* FurkanKilic_HW4.xcdatamodeld */; };
+		BA58F23A2774CF0A0034ED4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA58F2392774CF0A0034ED4D /* Assets.xcassets */; };
+		BA58F23D2774CF0A0034ED4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA58F23B2774CF0A0034ED4D /* LaunchScreen.storyboard */; };
+		BA58F2452774D2390034ED4D /* AddRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA58F2442774D2390034ED4D /* AddRecordVC.swift */; };
+		BA58F2482774D3690034ED4D /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA58F2462774D3690034ED4D /* Student.swift */; };
+		BA58F2492774D3690034ED4D /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA58F2472774D3690034ED4D /* Student+CoreDataProperties.swift */; };
+		BA58F24B2774D6860034ED4D /* UpdateRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA58F24A2774D6860034ED4D /* UpdateRecordVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA58F22A2774CF080034ED4D /* FurkanKilic_HW4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurkanKilic_HW4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA58F22D2774CF080034ED4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA58F22F2774CF080034ED4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA58F2312774CF080034ED4D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		BA58F2342774CF080034ED4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA58F2372774CF080034ED4D /* FurkanKilic_HW4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FurkanKilic_HW4.xcdatamodel; sourceTree = "<group>"; };
+		BA58F2392774CF0A0034ED4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA58F23C2774CF0A0034ED4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA58F23E2774CF0A0034ED4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA58F2442774D2390034ED4D /* AddRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordVC.swift; sourceTree = "<group>"; };
+		BA58F2462774D3690034ED4D /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		BA58F2472774D3690034ED4D /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BA58F24A2774D6860034ED4D /* UpdateRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateRecordVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA58F2272774CF080034ED4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA58F2212774CF080034ED4D = {
+			isa = PBXGroup;
+			children = (
+				BA58F2462774D3690034ED4D /* Student.swift */,
+				BA58F2472774D3690034ED4D /* Student+CoreDataProperties.swift */,
+				BA58F22C2774CF080034ED4D /* FurkanKilic_HW4 */,
+				BA58F22B2774CF080034ED4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA58F22B2774CF080034ED4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA58F22A2774CF080034ED4D /* FurkanKilic_HW4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA58F22C2774CF080034ED4D /* FurkanKilic_HW4 */ = {
+			isa = PBXGroup;
+			children = (
+				BA58F2312774CF080034ED4D /* MainVC.swift */,
+				BA58F2442774D2390034ED4D /* AddRecordVC.swift */,
+				BA58F24A2774D6860034ED4D /* UpdateRecordVC.swift */,
+				BA58F2332774CF080034ED4D /* Main.storyboard */,
+				BA58F22D2774CF080034ED4D /* AppDelegate.swift */,
+				BA58F22F2774CF080034ED4D /* SceneDelegate.swift */,
+				BA58F2392774CF0A0034ED4D /* Assets.xcassets */,
+				BA58F23B2774CF0A0034ED4D /* LaunchScreen.storyboard */,
+				BA58F23E2774CF0A0034ED4D /* Info.plist */,
+				BA58F2362774CF080034ED4D /* FurkanKilic_HW4.xcdatamodeld */,
+			);
+			path = FurkanKilic_HW4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA58F2292774CF080034ED4D /* FurkanKilic_HW4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA58F2412774CF0A0034ED4D /* Build configuration list for PBXNativeTarget "FurkanKilic_HW4" */;
+			buildPhases = (
+				BA58F2262774CF080034ED4D /* Sources */,
+				BA58F2272774CF080034ED4D /* Frameworks */,
+				BA58F2282774CF080034ED4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FurkanKilic_HW4;
+			productName = FurkanKilic_HW4;
+			productReference = BA58F22A2774CF080034ED4D /* FurkanKilic_HW4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA58F2222774CF080034ED4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = KILIC;
+				TargetAttributes = {
+					BA58F2292774CF080034ED4D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BA58F2252774CF080034ED4D /* Build configuration list for PBXProject "FurkanKilic_HW4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA58F2212774CF080034ED4D;
+			productRefGroup = BA58F22B2774CF080034ED4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA58F2292774CF080034ED4D /* FurkanKilic_HW4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA58F2282774CF080034ED4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA58F23D2774CF0A0034ED4D /* LaunchScreen.storyboard in Resources */,
+				BA58F23A2774CF0A0034ED4D /* Assets.xcassets in Resources */,
+				BA58F2352774CF080034ED4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA58F2262774CF080034ED4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA58F2322774CF080034ED4D /* MainVC.swift in Sources */,
+				BA58F2482774D3690034ED4D /* Student.swift in Sources */,
+				BA58F24B2774D6860034ED4D /* UpdateRecordVC.swift in Sources */,
+				BA58F2382774CF080034ED4D /* FurkanKilic_HW4.xcdatamodeld in Sources */,
+				BA58F2452774D2390034ED4D /* AddRecordVC.swift in Sources */,
+				BA58F22E2774CF080034ED4D /* AppDelegate.swift in Sources */,
+				BA58F2302774CF080034ED4D /* SceneDelegate.swift in Sources */,
+				BA58F2492774D3690034ED4D /* Student+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA58F2332774CF080034ED4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA58F2342774CF080034ED4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA58F23B2774CF0A0034ED4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA58F23C2774CF0A0034ED4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA58F23F2774CF0A0034ED4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA58F2402774CF0A0034ED4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA58F2422774CF0A0034ED4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FurkanKilic_HW4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kilic.FurkanKilic-HW4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BA58F2432774CF0A0034ED4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FurkanKilic_HW4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kilic.FurkanKilic-HW4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA58F2252774CF080034ED4D /* Build configuration list for PBXProject "FurkanKilic_HW4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA58F23F2774CF0A0034ED4D /* Debug */,
+				BA58F2402774CF0A0034ED4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA58F2412774CF0A0034ED4D /* Build configuration list for PBXNativeTarget "FurkanKilic_HW4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA58F2422774CF0A0034ED4D /* Debug */,
+				BA58F2432774CF0A0034ED4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA58F2362774CF080034ED4D /* FurkanKilic_HW4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA58F2372774CF080034ED4D /* FurkanKilic_HW4.xcdatamodel */,
+			);
+			currentVersion = BA58F2372774CF080034ED4D /* FurkanKilic_HW4.xcdatamodel */;
+			path = FurkanKilic_HW4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA58F2222774CF080034ED4D /* Project object */;
+}
